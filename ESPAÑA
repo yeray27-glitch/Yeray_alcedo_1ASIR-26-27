@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            margin: auto;
+        }
+        .d1 {
+            color: red;
+            background-color: red;
+            border:1px black solid;
+            width: 50%;
+            height: 40px;
+        }        
+        .d2 {
+            color: yellow;
+            background-color: yellow;
+            border:1px black solid;
+            width: 50%;
+            height: 40px;
+        }
+        #d1 {
+            margin-top: 5px;
+        }
+    </style>
+    <title>Hola Mundo</title>
+</head>
+<body>
+    <div class="d1" id="d1">
+        <p> Caja 1 </p>
+    </div>    
+    <div class="d2">
+       <p> Caja 2 </p>
+    </div>
+        <div class="d1">
+       <p> Caja 3 </p>
+    </div>    
+
+</body>
+</html>
