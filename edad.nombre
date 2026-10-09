@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+        <script>
+        let nombre1 = prompt('Ingrese el primer nombre:');
+        let edad1 = prompt('Ingrese la primera edad:');
+
+        let nombre2 = prompt('Ingrese el segundo nombre:');
+        let edad2 = prompt('Ingrese la segunda edad:');
+
+    if ( edad1 == edad2){
+    alert ( "Ambas personas tienen la misma edad")
+        } else if (edad1 > edad2){
+            alert ( nombre1 + " es mayor que " + nombre2);
+        } else {
+            alert ( nombre2 + " es mayor que " + nombre1);
+        }
+
+    </script>
+    
+</body>
+</html>
