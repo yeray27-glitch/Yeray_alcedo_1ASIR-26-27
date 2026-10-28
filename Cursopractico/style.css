@@ -1,0 +1,21 @@
+        
+        header{
+            text-align: center;
+        }
+        aside{
+        float: left;
+        }
+        section {
+            margin-left: 400px;
+        }
+        #contenido_libro{
+        margin-right: 50px;
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        width: 800px;
+        }
+        #datos_libro{
+        width: 300px;
+        }
+        
